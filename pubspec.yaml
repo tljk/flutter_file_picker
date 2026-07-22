@@ -47,3 +47,6 @@ flutter:
         dartPluginClass: FilePickerWindows
       linux:
         dartPluginClass: FilePickerLinux
+      ohos:
+        package: com.file_picker
+        pluginClass: FilePickerPlugin
