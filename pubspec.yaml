@@ -16,6 +16,7 @@ workspace:
   - packages/file_picker_android
   - packages/file_picker_darwin
   - packages/file_picker_linux
+  - packages/file_picker_ohos
   - packages/file_picker_windows
   - packages/file_picker_web
   - example
@@ -42,6 +43,7 @@ dependencies:
   android_file_picker: ^1.0.0
   file_picker_darwin: ^1.0.0
   file_picker_linux: ^1.0.0
+  file_picker_ohos: ^1.0.0
   windows_file_picker: ^1.0.0
   file_picker_web: ^3.0.0
   cross_file: ^0.3.5+4
@@ -71,6 +73,8 @@ flutter:
         default_package: file_picker_linux
       macos:
         default_package: file_picker_darwin
+      ohos:
+        default_package: file_picker_ohos
       web:
         default_package: file_picker_web
       windows:
